@@ -22,7 +22,6 @@ from django.utils.safestring import mark_safe
 from django.utils.six.moves import reduce
 
 
-@python_2_unicode_compatible
 class MultiForm(object):
     """
     A container that allows you to treat multiple forms as one form.  This is
